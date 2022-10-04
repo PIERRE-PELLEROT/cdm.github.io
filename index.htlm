@@ -1,0 +1,74 @@
+<!DOCTYPE htlm>
+<htlm>
+   <head>
+      <title> Essaie 1 </title>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width-device-width initial-scale=1.0" />
+      
+   </head>
+   <body>
+      <div style="text-align: center">
+         <h1 style="color: #3333FF" >Création de site internet</h1>
+      </div>
+      <p style="font-family:verdana; font-size=150%">
+         Voici un premier paragraphe
+      </p>
+      <img src="PSG.jpg" alt="image_psg" width="50%" height="50%">
+      <p>
+         <a href="https://www.touchard-washington.fr/"> Site du lycée</a>
+      </p>
+      <table style="border: 2px solid blue; border-collapse: collapse" >
+         <caption>Liste des Joueurs</Caption>
+         <tr>
+            <th style= "border: 2px solid blue; width:25%">Nom</th>
+            <th style= "border: 2px solid blue; width:50%">Prénom</th>
+            <th style= "border: 2px solid blue; width:25%">Âge</th
+         </tr>
+         <tr>
+            <td style= "border: 2px solid blue">Jean</td>
+            <td style= "border: 2px solid blue">DUPONT</td>
+            <td style= "border: 2px solid blue">37</td>
+         </tr>
+         <tr>
+            <td style= "border: 2px solid blue">Jacques</td>
+            <td style= "border: 2px solid blue">DURANT</td>
+            <td style= "border: 2px solid blue">45</td>
+            
+         </tr>
+         
+      </table>
+      
+      <ol>
+         <li>HTLM
+            <ul style="list-style-type: circle">
+               <li>Principe</li>
+               <li> Mise en forme
+                  <ul style="list-style-type: square">
+                     <li>Balise de texte</li>
+                     <li>Les tableaux</li>
+                     <li>Les liste</li>
+                  </ul>
+               <li>Les Formulaires</li>
+              
+            </ul>
+         </li>
+         
+         <li>CSS
+            <ul style="list-style-type: circle">
+               <li>CSS de base</li>
+               <li>CSS avancé</li>
+            </ul>
+         </li>
+         <li>Langages de programmation
+            <ul>
+               <li>Algorithmes</li>
+               <li>Python</li>
+            </ul>
+         </li>
+      
+      
+      </ol>
+        
+   </body>
+</htlm>
+   
