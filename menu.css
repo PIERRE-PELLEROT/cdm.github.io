@@ -1,0 +1,296 @@
+
+/* Gestion des menus */
+#bande {
+    z-index:5;
+    position:fixed;
+    top:0px;
+    left:0%;
+    background: linear-gradient(blue, red);
+    width: 100%;
+    height: 135px;
+}
+#drapeau1{
+   background: linear-gradient(blue, red);
+   width:30%;
+   position:fixed;
+   top:30px;
+   left:2%;
+   border: 2px solid black
+}
+#drapeau2{
+   background: linear-gradient(blue, red);
+   width:30%;
+   position:fixed;
+   top:30px;
+   left:68%;
+   border: 2px solid black;
+}
+#menu {
+    
+    font-family: verdana;
+    font-size: 15px;
+    
+    
+    
+    
+     
+}
+#menu td:hover{
+    background-color: rosybrown;
+    border-color: blue; 
+    color: yellow;
+}
+#menu>h1 {
+    margin-top:5px;
+    color:red;
+    font-size: 44px;
+    font-family:calibri;
+    text-align:center;
+    text-decoration: underline;
+}
+#menu a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+#menu a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+#menu>table {
+    display:flex;
+    justify-content:center;
+    margin:auto ;
+    border-radius: 5px;
+} 
+#menu>table>tr {
+   border: 2px solid red;
+}
+#page_actuelle{
+   border: 2px solid red;
+    border-radius: 5px;
+    width: 20%;
+    text-align:center;  
+    background-color:red;
+}
+#autres_pages{
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 20%;
+    text-align:center;  
+   
+}
+
+body{
+    background-color: white;
+    color:black;
+}
+
+/* Feuille Calendrier */
+div.tableau_calendier {
+   
+   position:static;
+   margin-top:200px;
+   margin-bottom:20px;
+   margin-left:auto;
+   margin-right:auto;
+   width:75%;
+}
+table.tableau_calendier {
+    
+    
+    
+    border: 5px solid black;
+    width:80%;
+    margin-left:auto; 
+    margin-right:auto;
+    border-radius: 20px;
+    border-collapse:collapse;
+ }
+th.tableau_calendier {
+   border-radius: 10px;
+    border:3px solid black;
+    background-color:white;
+    border-collapse:collapse;
+ }
+
+td.tableau_calendier {
+   
+    border: 2px solid black;
+    
+    background-color:white;
+    text-align:center;
+ }
+.tableau_calendier  a{
+    color:black;
+    text-align:center;
+    text-decoration: none;
+ }
+ .tableau_calendier  a:hover{
+    color:blue;
+    text-align:center;
+    text-decoration: underline;
+ }
+ #entete{
+    text-align:center;
+    width:100%;
+    background-color:white; 
+    color:red; 
+    border: 5px solid black; 
+    font-size: 30px;
+    
+ }
+ 
+ 
+ #date {
+    text-align:center;
+    width:100%;
+    background-color:#ff00ff; 
+    font-size:20px;
+    color: white;
+    
+ }
+ #final{
+    border: 2px solid black;
+    padding: 5px;
+    background-color:white;
+    text-align:center;
+    
+ }
+ 
+ /*Feuille Statistique*/
+ div.resume_stats{
+    position:static;
+   margin-top:200px;
+   margin-bottom:20px;
+   margin-left:auto;
+   margin-right:auto;
+   width:75%;
+}
+.resume_stats a{
+   text-decoration:none;
+   color:black;
+   font-size:15px;
+}
+.resume_stats a:hover{
+   text-decoration:underline;
+   color:blue;
+   font-size:20px;
+}
+
+div.classement{
+     background-color: purple;
+     position:static;
+   margin-top:200px;
+   margin-bottom:20px;
+   margin-left:auto;
+   margin-right:auto;
+   width:25%;
+}
+div.classement table{
+     border: 3px solid  black;
+    
+     border-radius:30px;
+     border-collapse:collapse;
+     
+
+}
+div.classement  td{ 
+     border: 3px solid  black;
+     padding:5px;
+     
+}
+div.classement tr{
+   border: 3px solid  black;
+   margin:10px;
+}
+
+div.groupe {
+    position: absolute;
+    
+    display: flex;
+    border: 3px solid black;
+    border-radius:10px;
+    
+    height: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: flex-start;
+    background-color:black;
+    
+}
+.groupe table{
+    width:25%;
+    height:50%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-radius:10px;
+    background-color:white;
+}  
+.groupe tr td{
+   border: 1px solid blue;
+}
+#nom_groupe{
+    text-align:center;
+    width:100%;
+    background-color:#ff00ff; 
+    font-size:20px;
+    color: white;
+    border-radius:8px 8px 0px 0px;
+ }
+
+ 
+ div.tableau_phase_final{
+     position: relative;
+     top:400px;
+     left:5px;
+     width: 100%;
+     border:2px solid black;
+     
+ }
+ 
+ #groupe_tableau {
+    position: absolute;
+    top: 200px;
+    left: 15%;
+    width: 70%;
+ }
+ 
+ 
+ #video_sacre {
+     position:relative;
+     top: 50px;
+     left: 100px;
+     width: 200px;
+     
+     
+ }
+ #contenu {
+     position: absolute;
+     top:200px;
+ }
+ 
+  #contenu > h1{
+    text-decoration: underline;
+ }
+ .derniers_vainqueurs{
+     position: relative;
+     top:100px;
+     left: 10px;
+     width: 50%;
+     margin:auto;
+     
+ }
+ .derniers_vainqueurs >table{
+     border: solid 2px black;
+     margin:auto;
+     margin-top:20px;
+ }
+ .derniers_vainqueurs >h1{ 
+     text-decoration: underline;
+     text-align: center;
+ }
+ .derniers_vainqueurs >table>tr {
+     border: solid 1px black;
+ }
