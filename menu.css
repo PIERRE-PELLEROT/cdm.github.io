@@ -316,3 +316,15 @@ div.groupe {
  .derniers_vainqueurs >table>tr {
      border: solid 1px black;
  }
+ 
+ #contact{
+    border:2px black solid;
+    padding:2px;
+    position:fixed;
+    bottom:5px;
+    right:5px;
+ }
+ #img_ceremonie{
+    width:50%;
+    margin-left:25%;
+ }
