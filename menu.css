@@ -86,11 +86,13 @@ body{
     color:black;
 }
 
+
+
 /* Feuille Calendrier */
 div.tableau_calendier {
    
    position:static;
-   margin-top:200px;
+   margin-top:10px;
    margin-bottom:20px;
    margin-left:auto;
    margin-right:auto;
@@ -181,7 +183,7 @@ td.tableau_calendier {
 div.classement{
      background-color: white;
      position:static;
-   margin-top:200px;
+   margin-top:10px;
    margin-bottom:20px;
    margin-left:auto;
    margin-right:auto;
@@ -200,6 +202,9 @@ div.classement{
 #nombre {
    text-align:center;
    width:50px;
+}
+#equipe{
+   width:120px;
 }
 div.classement table{
      border: 3px solid  black;
@@ -272,7 +277,7 @@ div.groupe {
  }
  #groupe_tableau {
     position: absolute;
-    top: 200px;
+    top:10px;
     left: 15%;
     width: 70%;
  }
@@ -288,7 +293,9 @@ div.groupe {
  }
  #contenu {
      position: absolute;
-     top:200px;
+     top:140px;
+     width:100%;
+     
  }
  
   #contenu > h1{
